@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Anton|Lato|Prosto+One|Raleway|Roboto&display=swap');
+
+:root, *{
+    --rojo: #FF4136;
+    --azul : #001f3f;
+    --celeste: #0074D9;
+    --aqua: #7FDBFF;
+    --verdeAzulado: #39CCCC;
+    --oliva: #3D9970;
+    --verde : #2ECC40;
+    --limon: #01FF70;
+    --amarillo: #FFDC00;
+    --naranja: #FF851B;
+    --castanio: #85144b;
+    --fucsia: #F012BE;
+    --morado: #B10DC9;
+    --negro: #111111;
+    --gris: #AAAAAA;
+    --plateado: #DDDDDD;
+    --blanco: #FFF;
+}

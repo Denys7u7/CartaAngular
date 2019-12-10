@@ -1,0 +1,77 @@
+@import url(../../assets/colores.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hijo1{
+    grid-area: hijo1;
+}
+.hijo2{
+    grid-area: hijo2;
+}
+.hijo3{
+    grid-area: hijo3;
+}
+.hijo4{
+    grid-area: hijo4;
+}
+.hijo5{
+    grid-area: hijo5;
+}
+.hijo6{
+    grid-area: hijo6;
+}
+
+
+.grid-padre{
+    display: grid;
+    grid-template-areas: 
+        'hijo1 hijo2 hijo3'
+        'hijo4 hijo5 hijo6';
+    grid-gap: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.grid-hijo{
+    background: rgba(255, 255, 255, 0.5);
+    color: var(--azul);
+    display: block;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.grid-hijo > img{
+    width: 100%;
+}
+
+.grid-hijo > ul > li{
+    text-align: justify;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/*.grid-hijo > ul > li::before{
+    font-family: FontAwesome;
+    content: "\f14a";
+}*/
+
+.grid-hijo > p:nth-child(1){
+    font-family: 'Lato';
+    font-size: 1.5rem;
+}
+
+li a{
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+.grid-hijo:nth-child(6){
+    background: var(--rojo);
+}

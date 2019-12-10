@@ -1,0 +1,11 @@
+.contenedor{
+    width: 60%;
+    height: 90vh;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 0px;
+    margin-top: 5vh;
+    overflow: hidden;
+}
